@@ -1,0 +1,25 @@
+.review-block-container {
+  background-color: white;
+  color: black;
+  max-height: 180px;
+  overflow-y: auto;
+  width: inherit;
+
+  .review-scroll-container {
+    overflow-y: auto;
+    .review {
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      margin-top: 10px;
+
+      .data {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .rating {
+          display: flex;
+        }
+      }
+    }
+  }
+}
